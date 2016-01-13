@@ -17,7 +17,7 @@ public class StudentExamScores {
         Student student2 = new Student("Frodo", 33.3);
         Student student3 = new Student("Meriadoc", 66.4);
         Student student4 = new Student("Samwise", 58.3);
-        Student student5 = new Student("Peregrin", 12.9);
+        Student student5 = new Student("Peregrin", 82.9);
         students = new Student[]{student1, student2, student3, student4, student5};
     }
 
