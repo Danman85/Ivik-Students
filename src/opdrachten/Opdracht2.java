@@ -8,13 +8,14 @@ public class Opdracht2 {
 
         int[] array1 = {5, 20, 40, 15, 1, 30, 100, 6, 300, 23, 48};
 
-        int[] array2 = Arrays.copyOfRange(array1, 3, 9);
+        int[] array2 = Arrays.copyOfRange(array1, 3, 8);
             for (int m : array2) {
-                System.out.println(m);
+                System.out.print(m + " ");
             }
+
         Arrays.sort(array1);
         for (int n : array1) {
-            System.out.println(n);
+            System.out.print(n + " ");
         }
     }
 }
